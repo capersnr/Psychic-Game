@@ -1,9 +1,18 @@
 .jumbotron jumbotron-fluid{
-text-align: center;
 background-color: crimson;
+text-align: center;
 
 
 }
+
+.jumbo-fluid{
+    background-color: crimson;
+}
+
+p {
+    text-align: center
+}
+
 h1{
 text-align: center;
 
