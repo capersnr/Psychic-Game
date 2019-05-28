@@ -28,12 +28,21 @@ console.log(computerChoice)
 
 if (userGuess == computerChoice) {
     wins++;
- 
-} else if(guesses == 0) {
-    losses++;
+}
 
-}else {
+if (userGuess != computerChoice) {
     guesses--;
+
+}
+
+if (guesses == 0) {
+    losses++; 
+
+} 
+
+if (guesses == 0) {
+    guesses = 10;
+
 }
 
 
